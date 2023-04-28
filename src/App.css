@@ -6,6 +6,92 @@
   height: 40vmin;
   pointer-events: none;
 }
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 16px;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 320px;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.form input {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-bottom: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-footer {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  margin-top: 8px;
+}
+
+.button-google {
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+}
+
+.button-google:hover {
+  background-color: #357ae8;
+}
+
+.button-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+.button-primary:hover {
+  background-color: #0062cc;
+}
+
+.link {
+  cursor: pointer;
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.error {
+  color: #ff0000;
+  margin-top: 8px;
+  font-size: 14px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
